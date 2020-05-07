@@ -38,7 +38,7 @@ html요소의 배경색을 지정 할 수 있다.
 
 ```CSS
 <h1 style="border:2px solid red;"> border</h1>
-<p style="border 2px solid blue;> bordercolor</p>
+<p style="border 2px solid blue;"> bordercolor</p>
 ```
 
 # colorvalue
