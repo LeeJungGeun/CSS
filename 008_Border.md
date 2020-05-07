@@ -87,7 +87,7 @@ mix속성으로 선을 섞을 수도 있지만
 ```CSS
 p{
 border-top-style:dotted;
-border-right-style:soild;
+border-right-style:solid;
 border-bottom-style:none;
 border-left-style:solid
 }
@@ -138,7 +138,7 @@ border-radius 속성을 사용하면 테두리를 둥그렇게 만드는것이 �
 
 ```CSS
 p{
-border: 5px soild red;
+border: 5px solid red;
 border-radius: 12px;
 }
 ```
