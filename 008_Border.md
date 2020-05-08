@@ -20,12 +20,12 @@ border-style 속성으로 선 스타일을 정의할 수 있다.
 - mix : 상 우 하 좌 순서로 지정하며 위에 속성들을 섞는 효과
 
 ```CSS
-p.one{
-border-style:solid;
+p.one {
+  border-style:solid;
 }
 
-p.two{
-border.style:dashed;
+p.two {
+  border.style:dashed;
 }
 ```
 
@@ -36,23 +36,24 @@ border-width속성을 사용하면 선의 굵기를 조절 가능하다
 in. px. pt. cm, em, etc의 단위를 사용하거나 thin, medium, thick의 사
 
 ```CSS
-p.one{
-border-style:solid;
-border-width:5px;
+p.one {
+  border-style:solid;
+  border-width:5px;
 }
 
-p.two{
-border style : solid;
-border-width:thin;
+p.two {
+  border style : solid;
+  border-width:thin;
 }
 ```
 
 border-width 속성은 상 우 하 좌 순서로 섞어서 사용 가능하다
 
 ```CSS
-p.border{
-border-style:solid;
-border-width: 5px 10px 15px 20px;
+p.border {
+  border-style:solid;
+  border-width: 5px 10px 15px 20px;
+}
 ```
 
 # border color
@@ -62,19 +63,19 @@ border-color 속성을 사용해 테두리의 색상을 지정할 수 있다
 색상은 사전정의된 이름, hex, rgb, hsl 값을 사용 가능하다
 
 ```CSS
-p.one{
-border-style:solid;
-border-color:red;
+p.one {
+  border-style:solid;
+  border-color:red;
 }
 
-p.two{
-border-style:dotted;
-border-color:hsl(0,0%,0%);
+p.two {
+  border-style:dotted;
+  border-color:hsl(0,0%,0%);
 }
 
-p.three{
-border-style:double;
-border-color:#ffff00;
+p.three {
+  border-style:double;
+  border-color:#ffff00;
 }
 ```
 
@@ -85,11 +86,11 @@ mix속성으로 선을 섞을 수도 있지만
 테두리의 각각의 부분을 위한 속성도 있다.
 
 ```CSS
-p{
-border-top-style:dotted;
-border-right-style:solid;
-border-bottom-style:none;
-border-left-style:solid
+p {
+  border-top-style:dotted;
+  border-right-style:solid;
+  border-bottom-style:none;
+  border-left-style:solid
 }
 ```
 
@@ -127,8 +128,9 @@ p {
 테두리도 배경과같이 속성 줄여쓰기가 가능하다
 
 ```CSS
-p{
-border: 5px solid red;
+p {
+  border: 5px solid red;
+}
 ```
 
 # Rounded Border
@@ -137,8 +139,8 @@ border: 5px solid red;
 border-radius 속성을 사용하면 테두리를 둥그렇게 만드는것이 가능하다
 
 ```CSS
-p{
-border: 5px solid red;
-border-radius: 12px;
+p {
+  border: 5px solid red;
+  border-radius: 12px;
 }
 ```
