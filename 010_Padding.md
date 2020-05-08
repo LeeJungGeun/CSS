@@ -24,8 +24,8 @@ div {
 마찬가지로 border와 margin처럼 줄여쓰는것 또한 가능하다
 
 ```CSS
-div{
-padding: 50px 30px;
+div {
+  padding: 50px 30px;
 }
 ```
 
