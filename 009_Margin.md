@@ -45,10 +45,11 @@ margin에 값을 auto로 주게될 경우
 좌 우 여백을 균등하게 맞춘다
 
 ```CSS
-body{
-width:300px;
-margin: auto;
-border:2px solid black;
+body {
+  width:300px;
+  margin: auto;
+  border:2px solid black;
+}
 ```
 
 # margin Collapse
@@ -58,13 +59,15 @@ border:2px solid black;
 좌 우 여백에는 붕괴가 일어나지않는다
 
 ```CSS
-h1{
-margin-bottom:200px;
+h1 {
+  margin-bottom:200px;
 }
 
-h2{
-margin-top:300px;
+h2 {
+  margin-top:300px;
 }
+```
+```html
 <h1> h1 </h1>
 <h2> h2 </h2>
 ```
