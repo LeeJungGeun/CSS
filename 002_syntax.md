@@ -4,7 +4,10 @@
 CSS는 선택자와 선언블록으로 구성되있다
 
 ```CSS
-h1{color:blue; font-size:12px;}
+h1 {
+  color:blue; 
+  font-size:12px;
+}
 ```
 
 선택자는 HTML의 요소
@@ -16,9 +19,9 @@ h1{color:blue; font-size:12px;}
 여러 CSS선언은 세미콜론으로 분리된다 그리고 선언블록은 중괄호로 둘러쌓여있다.
 
 ```CSS
-p{
-color: red;
-text-align: center;
+p {
+  color: red;
+  text-align: center;
 }
 ```
 
