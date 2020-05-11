@@ -10,7 +10,7 @@ HTML에서 아이콘을 쉽게 만드는 방법은
 
 fonf awesome아이콘을 사용하려면 fontawesome.com 사이트에서  코드를 받은다음
 
-html파일의 <head>부분에 그 내용을 붙여넣는다
+html파일의 \<head>부분에 그 내용을 붙여넣는다
   
 ```html
 <head>
