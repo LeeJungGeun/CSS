@@ -52,7 +52,7 @@ text-align 속성으로 가로 정렬을 할 수 있다
 th, td{
   text-align: center;
 }
-
+```
 # vertical-align
 -------------------
 
@@ -97,13 +97,17 @@ th, td {
 \<tr>에서 hover속성을 추가하면 마우스를 올렸을 때 하이라이트가 나온다
 
 ```css
-tr:hover {background-color:#f5f5f5;}
+tr:hover {
+  background-color:#f5f5f5;
+}
 ```
 
 \<tr>에 nth-child()을 추가하고 background-color속성을 추가하면 줄무늬 테이블을 만들 수 있다
 
 ```css
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 ```
 
 \<th>,\<td> 등에서 background-color속성을 사용해 배경색을 넣을 수 있다
