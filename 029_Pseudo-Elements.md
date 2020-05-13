@@ -8,8 +8,8 @@ CSS의사요소는 요소의 지정된부분에 다른 스타일을 정의한다
 - 요소의 첫글자, 첫줄
 - 머릿말과 맺음말
 
-선택자:의사요소{
-  속성:값
+선택자:의사요소{ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;속성:값 <br>
 }
 
 으로 작성된다
@@ -48,7 +48,7 @@ p.intro::first-letter {
 
 여러개의 의사요소도 겹칠 수 있다
 
-```
+```css
 p::first-letter {
   color: red;
   font-size: 200px;
