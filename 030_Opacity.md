@@ -40,7 +40,7 @@ div.first {
 
 ```css
 div {
-  background: rgba(76, 175, 80, 0.1
+  background: rgba(76, 175, 80, 0.1)
 }
 ```
 rgba는 배경색만 투명하며 나머진 변하지않는다
