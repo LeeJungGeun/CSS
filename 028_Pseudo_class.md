@@ -78,7 +78,7 @@ p i:first-child {
 
 해당 예시의 경우 p속에서 처음으로나온 i에 속성이부여된다
 
-```
+```css
 p:first-child i {
   color: blue;
 }
@@ -89,7 +89,7 @@ p:first-child i {
 --------------------
 lang 을 사용하면 다른 문자에 특별한 규칙을 추가한다
 
-```
+```css
 q:lang(A) {
   quotes: "~" "!";
 }
